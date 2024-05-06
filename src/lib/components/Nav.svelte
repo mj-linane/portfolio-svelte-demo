@@ -2,9 +2,9 @@
 <script>
 	export let menuItems = [
 		{ label: 'Home', href: '/' },
-		{ label: 'About', href: '/tribute' },
-		{ label: 'About', href: '/form' },
-		{ label: 'Contact', href: '/sales' }
+		{ label: 'Tribute', href: '/tribute' },
+		{ label: 'Form', href: '/form' },
+		{ label: 'Sales', href: '/sales' }
 	];
 </script>
 
