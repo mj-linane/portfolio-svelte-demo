@@ -19,48 +19,49 @@
 </div>
 
 <style>
-  .price-card {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
+	.price-card {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding: 1rem;
+		border: 1px solid #ccc;
+		border-radius: 8px;
+		box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	}
 
-  .card-title {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 1rem;
-  }
+	.card-title {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 1rem;
+	}
 
-  h2 {
-    font-size: 1.5rem;
-    margin-bottom: 0.5rem;
-  }
+	h2 {
+		font-size: 1.5rem;
+		margin-bottom: 0.5rem;
+	}
 
-  h3 {
-    font-size: 1.25rem;
-    margin-bottom: 1rem;
-  }
+	h3 {
+		font-size: 1.25rem;
+		margin-bottom: 1rem;
+	}
 
-  .card-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
+	.card-content {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
 
-  ul {
-    list-style-type: none;
-    padding: 0;
-  }
+	ul {
+		list-style-type: none;
+		padding: 0;
+	}
 
-  li {
-    font-size: 1rem;
-    margin-bottom: 0.5rem;
-  }
+	li {
+		font-size: 1rem;
+		margin-bottom: 0.5rem;
+	}
+</style>
