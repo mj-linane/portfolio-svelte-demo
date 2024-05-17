@@ -1,10 +1,12 @@
 <script>
 	export let title = "MJ Linane's Portfolio";
+	export let subtitle = 'Welcome to my portfolio!';
 </script>
 
 <div class="hero">
 	<div class="hero-content">
 		<h1>{title}</h1>
+		<p>{subtitle}</p>
 	</div>
 </div>
 
@@ -43,5 +45,9 @@
 	h1 {
 		font-size: 4rem;
 		margin-bottom: 1rem;
+	}
+
+	p {
+		font-size: 1.5rem;
 	}
 </style>
