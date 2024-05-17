@@ -2,9 +2,11 @@
 	export let priceTier;
 	export let price;
 	export let features;
+	export let focused;
 </script>
 
-<div class="price-card">
+
+<div class="price-card" class:focused={focused}>
 	<div class="card-title">
 		<h2>{priceTier}</h2>
 		<h3>${price}</h3>
@@ -27,6 +29,7 @@
 		padding: 1rem;
 		border: 1px solid #ccc;
 		border-radius: 8px;
+		background-color: white;
 		box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 	}
 
@@ -63,5 +66,9 @@
 	li {
 		font-size: 1rem;
 		margin-bottom: 0.5rem;
+	}
+
+	.focused{
+		transform: scale(1.5);
 	}
 </style>
